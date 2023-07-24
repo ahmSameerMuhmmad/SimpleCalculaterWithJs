@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="container">
+        <img src="https://media.istockphoto.com/id/1414943618/photo/the-wind-raises-the-dust-in-desert.jpg?s=2048x2048&w=is&k=20&c=mt2AH-qoBQO0MiRB8Yrm6jClkK6JIWRqf8914YsMiBk=" alt="image"></div>
+    <div class="inner-container">inner-container</div> -->
+
+    <div class="background">
+        <div class="container">
+        <div class="box">
+            <form onsubmit="calculateMarks(event)" action="#" class="calculator-form" id="calculatorForm">
+                <input type="number" name="math" placeholder="Maths" min="0" max="100" required>
+                <input type="number" name="english" placeholder="English"min="0" max="100" required>
+                <input type="number" name="hindi" placeholder="Hindi"min="0" max="100" required>
+                <input type="number" name="science" placeholder="Science"min="0" max="100" required>
+                <button type="submit" class="primary-btn">Calculate</button>
+            </form>
+            <div class="result" id="result"></div>
+        </div>
+        <div class="content">
+            <h2>Calculate Your</h2>
+            <h1>Percentage</h1>
+        </div>
+        </div>
+       
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
